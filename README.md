@@ -4,8 +4,6 @@ In this Documentation we will explore the Aztec Platforms AP-ESP32C6-PB-1V0. Thi
 
 Designed to get your projects off the ground faster, and, suitable for use in long term and permanent projects.
 
-Note: The SKU listed on the schematics is no longer active - it is now AP-XIAO-PB-3V3-V1
-
 # Design Overview
 
 ### Board Size and hole spacing
