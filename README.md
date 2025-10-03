@@ -11,7 +11,7 @@ Note: The SKU listed on the schematics is no longer active - it is now AP-XIAO-P
 ### Board Size and hole spacing
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/ead115d4-52d1-4ad5-8a35-0cb6f718a297" alt="Board and Hole Size" width="600">
+<img src="https://github.com/user-attachments/assets/cf06c168-8b13-44a1-a11b-242e8b214617" alt="Board and Hole Size" width="600">
 </p>
 
 
@@ -45,7 +45,7 @@ The level shifter also works in reverse: it safely steps down 5 V input signals 
 For each level-shifted signal, you’ll notice duplicate pins: one for the 3.3 V side and one for the 5 V side. ⚠️ Important: these pairs are electrically connected. You can use either the 3.3 V or the 5 V version of a pin (e.g., D0), but not both at the same time.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/35c7b4ac-7405-447b-96bf-e14d9b0b2173" alt="Board and Hole Size" width="600">
+<img src="https://github.com/user-attachments/assets/c4ed8c7b-f77f-4b1b-9a6b-b081895d08f2" alt="Board and Hole Size" width="600">
 </p>
 
 
@@ -59,7 +59,7 @@ For example, if you’re building an air quality sensor, you can connect an I²C
 I²C expander boards are also very affordable—typically under $5. For reliability, I recommend picking one up from Adafruit or another trusted supplier.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/b307e2f8-6209-4f73-991a-0dbc09eff09f" alt="Board and Hole Size" width="600">
+<img src="https://github.com/user-attachments/assets/9970cbf6-c3b2-4ac9-9345-adf1c72c1f29" alt="Board and Hole Size" width="600">
 </p>
 
 
@@ -74,7 +74,7 @@ This is especially useful for things like motors or fans that only have two wire
 You can safely drive 3A through the Mosfet Power.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/687490fc-9464-451d-a145-f8b9201672d1" alt="Board and Hole Size" width="600">
+<img src="https://github.com/user-attachments/assets/ef97ba51-b275-46ed-947f-041ad46cfe2e" alt="Board and Hole Size" width="600">
 </p>
 
 
@@ -100,7 +100,7 @@ Just to the right of the MOSFET section, you’ll find the standard 3.3-volt GPI
 So while D0 shows up in multiple places, each one serves a specific purpose. The key is to only choose one version of D0 for your project. If you try to tie them together, you risk damaging the electronics or the sensors you’re connecting.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/46e79c0e-ea67-4dec-8329-37b9ef71fcb3" alt="Board and Hole Size" width="600">
+<img src="https://github.com/user-attachments/assets/37f790b2-a57f-4fcd-a10c-cc08207973ca" alt="Board and Hole Size" width="600">
 </p>
 
 
