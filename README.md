@@ -20,7 +20,8 @@ Designed to get your projects off the ground faster, and, suitable for use in lo
 This board provides three usable voltage rails — 12 V, 5 V, and 3.3 V — making it versatile for a wide range of projects and connected devices.
 
 Power can be supplied in two ways:
-⚠️ Important: If you’re powering through USB-C, make sure your charger supports the 12 V profile. Not all USB-C bricks do — some only provide 9 V or 15 V. For higher-power use cases, connect 12 V directly through the VIAs to take advantage of the full 5 A capacity. Note - if a 12v profile is not availbale on the PSU, it will usually deliver one voltage lower (9v).
+⚠️ Important: If you’re powering through USB-C, make sure your charger supports the 12 V profile. Not all USB-C bricks do — some only provide 9 V or 15 V. For higher-power use cases, connect 12 V directly through the VIAs to take advantage of the full 5 A capacity. 
+Note - if a 12v profile is not availbale on the on your USB-C brick, it will usually deliver one voltage lower (9v). allowing you to still use the brick if you do not need the 12v power rail.
 - USB-C female connector — The onboard USB-C port negotiates with the charger and requests 12 V. Long story short - your power supply must explicitly state that it can deliver 12v. It will not work if a PSU delivers power within a voltage range, a range of voltage typically indicates that the PSU is PPS capable and will not work with this board.
 - Direct 12 V input — Near the USB-C connector, you’ll see two larger VIAs. These allow you to feed the board directly with 12 V at up to 5 A. The onboard power system is designed for this: the power supply, traces, and components are all rated for 5 A and can safely deliver that if needed.
 
